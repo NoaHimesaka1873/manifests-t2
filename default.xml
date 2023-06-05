@@ -28,11 +28,11 @@
   <project path="projects/blendos-first-setup" name="blend-os/blendos-first-setup"></project>
   <project path="packages/blendos-first-setup" name="blend-os/blendos-first-setup-pkg"></project>
 
-  <project path="projects/jade-gui" name="blend-os/jade-gui"></project>
-  <project path="packages/jade-gui" name="blend-os/jade-gui-pkg"></project>
+  <project path="projects/jade-gui-t2" name="NoaHimesaka1873/jade-gui-t2"></project>
+  <project path="packages/jade-gui-t2" name="NoaHimesaka1873/jade-gui-t2-pkg"></project>
 
   <!-- Independent packages -->
-  <project path="packages/blend-inst" name="blend-os/blend-inst"></project>
+  <project path="packages/blend-inst" name="NoaHimesaka1873/blend-inst-t2"></project>
   <project path="packages/blend-keyring" name="blend-os/blend-keyring-pkg"></project>
   <project path="packages/filesystem-blend" name="blend-os/filesystem-blend"></project>
   <project path="packages/grub-blend" name="blend-os/grub-blend-pkg"></project>
@@ -51,7 +51,7 @@
   <project path="packages/gnome-shell-extension-appindicator" name="gnome-shell-extension-appindicator" remote="aur"></project>
 
   <!-- Output profiles -->
-  <profile name="gnome" dm="gdm">
+  <profile name="t2-gnome" dm="gdm">
     <!-- WayDroid -->
     <pkg>waydroid-blend-git</pkg>
     <pkg>waydroid-image</pkg>
@@ -62,7 +62,7 @@
     <pkg>gnome-shell-extension-appindicator</pkg>
   </profile>
 
-  <profile name="plasma" dm="sddm">
+  <profile name="t2-plasma" dm="sddm">
     <!-- WayDroid -->
     <pkg>waydroid-blend-git</pkg>
     <pkg>waydroid-image</pkg>
