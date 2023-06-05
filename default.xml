@@ -13,7 +13,7 @@
   <default remote="github" />
 
   <!-- Build tools -->
-  <project path="build" name="blend-os/blendos_build"></project>
+  <project path="build" name="NoaHimesaka1873/blendos_build_t2"></project>
 
   <!-- Projects and their packaging -->
   <project path="projects/akshara" name="blend-os/akshara"></project>
