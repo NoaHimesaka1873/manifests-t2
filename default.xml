@@ -32,7 +32,7 @@
   <project path="packages/jade-gui-t2" name="NoaHimesaka1873/jade-gui-t2-pkg"></project>
 
   <!-- Independent packages -->
-  <project path="packages/blend-inst" name="NoaHimesaka1873/blend-inst-t2"></project>
+  <project path="packages/blend-inst-t2" name="NoaHimesaka1873/blend-inst-t2"></project>
   <project path="packages/blend-keyring" name="blend-os/blend-keyring-pkg"></project>
   <project path="packages/filesystem-blend" name="blend-os/filesystem-blend"></project>
   <project path="packages/grub-blend" name="blend-os/grub-blend-pkg"></project>
