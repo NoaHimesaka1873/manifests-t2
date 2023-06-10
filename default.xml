@@ -9,6 +9,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com/{}" />
+  
+  <remote  name="gitlab"
+	   fetch="https://git.blendos.co/{}" />
 
   <default remote="github" />
 
@@ -28,8 +31,8 @@
   <project path="projects/blendos-first-setup" name="blend-os/blendos-first-setup"></project>
   <project path="packages/blendos-first-setup" name="blend-os/blendos-first-setup-pkg"></project>
 
-  <project path="projects/jade-gui-t2" name="NoaHimesaka1873/jade-gui-t2"></project>
-  <project path="packages/jade-gui-t2" name="NoaHimesaka1873/jade-gui-t2-pkg"></project>
+  <project path="projects/jade-gui" name="blend-os/jade-gui"></project>
+  <project path="packages/jade-gui" name="blend-os/jade-gui-pkg"></project>
 
   <!-- Independent packages -->
   <project path="packages/blend-inst-t2" name="NoaHimesaka1873/blend-inst-t2"></project>
